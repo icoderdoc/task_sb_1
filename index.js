@@ -31,6 +31,6 @@ const listId = [
 ];
 
 for (let i = 0; i < listId.length; i++) {
-  console.log(listId[i]);
+  console.log(`<---список уникальных ${listId[i]}---/>`);
   uniqueValuesOutput(result, listId[i]);
 }

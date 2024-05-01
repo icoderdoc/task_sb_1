@@ -1,3 +1,3 @@
 export const outputList = (list) => {
-  console.table(list);
+  console.log(list);
 };
